@@ -1,0 +1,103 @@
+/* (C) Copyright Bobbing Wide 2011-2013 */
+.cycle { width: 100% !important; }
+.cycle img { max-width: 100% !important; margin: 0;  float:right;}
+
+div.cycle div { position: relative; }
+
+div.cycle a.bw_post { position: absolute; top: 20%; left: 5%; font-size: 300%; color:#07701b; 
+text-transform: uppercase; text-decoration: none;   }
+
+div.cycle span.bw_excerpt { position: absolute; top: 33%; left: 5%; font-size: 200%; width: 50%;}
+div.cycle a.bw_more { position: absolute; bottom: 20%; left: 5%;
+font-size: 15px;
+    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+  border: 0;
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #99C256;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border-width: 0;
+   padding:5px 21px;
+   margin:0 auto;
+color: #ffffff;
+  
+ }
+
+.art-header  span.tel { color: white; padding-top: 15px; font-size: 150%; text-align: right; }
+.art-header span.tel span.value { text-shadow: 0px 1px 0px  #07701b; }
+.art-header a { text-decoration: none; display: inline-block; padding-top: 15px; padding-left: 20px; }
+
+.art-header span.main-slogan { display: block; color: #eeeeee; padding-top: 15px; padding-left: 20px; text-transform: uppercase; }
+
+a.bw_contact { margin: 10px 0 0 0 !important; }
+
+.art-footer { padding: 0px; border-top: 5px solid #000000; }
+.art-header div.bw_address { color: #ffffff; padding-top: 15px; padding-left: 20px;}
+.art-header span.country-name { display: none; }
+
+a.more-link { 
+	display: block; 
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+.blog article { 
+	float: left;
+	width: 48%;
+	margin-left: 2%;
+}
+.blog .art-postcontent {
+	clear: both;
+}
+
+.blog .art-postcontent p {
+	font-size: 20px;
+}
+
+.blog div.alignleft { 
+	max-height: 300px; 
+	overflow: hidden; 
+}
+
+.art-postfootericons a{ 
+	color: #7aa13a;
+}
+
+.blog article a img {
+	border: 1px solid grey;
+}
+
+.art-article img {
+	margin: 0;
+}
+
+
+
+@media screen and ( max-width: 666px ) {
+div.w30pc,
+div.w33pc, 
+div.w50pc,
+div.w70pc { width: 100%; } 
+
+div.cycle a.bw_post { position: absolute; top: 10%; left: 5%; font-size: 200%; }
+div.cycle span.bw_excerpt { position: absolute; top: 23%; left: 5%; font-size: 150%; width: 80%;}
+
+
+.blog article { 
+	width: 100%;
+	margin-left: 0%;
+}
+
+
+}/*/mediaquery*/
+
+@media screen and ( max-width: 320px ) {
+div.cycle a.bw_post { position: absolute; top: 8%; left: 1%; font-size: 180%; }
+div.cycle span.bw_excerpt { position: absolute; top: 23%; left: 1%; font-size: 120%; width: 80%;}
+}/*/mediaquery*/
